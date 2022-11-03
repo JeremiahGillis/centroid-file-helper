@@ -71,7 +71,7 @@ items_changed = 0
 for row_pos in data_pos:
     for row_bom in data_bom:
         for item in row_bom['Designators'].split(','): # Must iterate in case multiple designators are in one field
-            if item == row_pos[ref_index_pos]:
+            if item.strip() == row_pos[ref_index_pos]:
                 if row_pos[val_index_pos] != row_bom['Part Number']:
                     row_pos[val_index_pos] = row_bom['Part Number']
                     items_changed += 1

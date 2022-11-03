@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["78-QJ4 Rev A Build x2.csv", "QuadJoy_4-top.pos"]
+            "args": ["78-0043 Rev A Build x2.csv", "QHD-BC4-top.pos"]
         }
     ]
 }
